@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: aliceblue;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (width <= 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+img {
+  height: 40%;
+  width: 40%;
+}
+h1 {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.price {
+  font-size: 30px;
+}
+.title {
+  font-size: large;
+  padding-top: 10px;
+}
+.container > div {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  padding: 12px;
+}
+.discription {
+  font-size: 12px;
+}
